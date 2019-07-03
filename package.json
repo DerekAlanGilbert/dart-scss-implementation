@@ -2,9 +2,12 @@
   "name": "scss-demo",
   "version": "1.0.0",
   "description": "Scss demo",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "dev": "sass src/scss/index.scss src/css/index.css"
+    "sass": "sass src/scss/index.scss src/css/index.css",
+    "sass:watch": "sass --watch src/scss/index.scss:src/css/index.css",
+    "sass:styled": "sass --style=expanded src/scss/index.scss:src/css/index.css",
+    "sass:compressed": "sass --style=compressed src/scss/index.scss:src/css/index.css"
   },
   "author": "",
   "license": "ISC",
