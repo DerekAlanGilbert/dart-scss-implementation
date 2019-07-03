@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import "variables.scss";
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  header {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      padding: 2rem;
+      margin-left: 1rem;
+      font-weight: 300;
+      color: $heading-color;
+    }
+    p,
+    span,
+    div,
+    ul {
+      color: $text-color;
+    }
+  }
+  main {
+    max-width: 700px;
+    margin: auto;
+    ul {
+      list-style: none;
+      .list-item {
+        padding: 1rem;
+      }
+    }
+  }
+}

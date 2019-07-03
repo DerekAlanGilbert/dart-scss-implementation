@@ -1,0 +1,14 @@
+{
+  "name": "scss-demo",
+  "version": "1.0.0",
+  "description": "Scss demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass src/scss/index.scss src/css/index.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dart-sass": "^1.22.2"
+  }
+}
